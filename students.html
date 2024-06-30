@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>Students Tutored</title>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">
+        <img src="img/aduncbt-logo.webp" alt="logo">
+        <span>ADUN-CBT</span>
+      </div>
+      <ul>
+        <li class="active"><i class="bi bi-house-fill"></i><a href="dashboard.html">Home</a></li>
+        <li><i class="bi bi-people-fill"></i><a href="students.html">Students</a></li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 32 32"><path fill="currentColor" d="M23 30a7 7 0 1 1 7-7a7.01 7.01 0 0 1-7 7m0-12a5 5 0 1 0 5 5a5.006 5.006 0 0 0-5-5"/><path fill="currentColor" d="m26 24.586l-2-2V20h-2v3.414L24.586 26zM8 16h6v2H8zm0-6h12v2H8z"/><path fill="currentColor" d="M26 4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13a10.98 10.98 0 0 0 5.824 9.707L13 29.467V27.2l-4.234-2.258A8.99 8.99 0 0 1 4 17V4h20v9h2Z"/></svg><a href="#">Test Creation</a></li>
+        <li><i class="bi bi-clipboard-data-fill"></i><a href="#">Analytics</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="header">
+        <h1 style="margin-left: 1.3em; font-size: 18px;" >Students Dashboard</h1>
+        <div class="notification">
+          <i class="bi bi-bell-fill"></i>
+          <img src="img/Screenshot 2024-06-17 182557.png" alt="notification" class="notification-icon" width="50" height="50">
+        </div>
+      </div>
+      <div id="card">
+        <div class="card1">
+          <h3>No. of Students</h3>
+          <p>56</p>
+          <i class="fas fa-user-graduate icon"></i>
+        </div>
+        <div class="card1">
+          <h3>Pending</h3>
+          <p>20</p>
+          <i class="fas fa-exclamation-circle icon"></i>
+        </div>
+  
+        <div class="card1">
+          <h3>Pass</h3>
+          <p>36</p>
+          <i class="fas fa-check-circle icon"></i>
+        </div>
+  
+        <div class="card1">
+          <h3>Fail</h3>
+          <p>36</p>
+          <i class="fas fa-times-circle icon"></i>
+        </div>
+      </div>
+  
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Student ID</th>
+              <th>Status</th>
+              <th>Department</th>
+              <th>Date Taken</th>
+              <th>Score</th>
+              <th>Pass/Fail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/001</td>
+              <td class="completed">Completed</td>
+              <td>Computer Science</td>
+              <td>25/06/2024, 10:00am</td>
+              <td>17/20</td>
+              <td class="completed">Pass</td>
+            </tr>
+            <tr>
+              <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/002</td>
+              <td class="active">Active</td>
+              <td>Cyber-Security</td>
+              <td>25/02/2024, 10:00am</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/003</td>
+              <td class="pending">Pending</td>
+              <td>Computer Science</td>
+              <td>25/06/2024, 10:00am</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/004</td>
+              <td class="completed">Completed</td>
+              <td>Computer Science</td>
+              <td>25/06/2024, 10:00am</td>
+              <td>04/20</td>
+              <td class="fail">Fail</td>
+            </tr>
+            <tr>
+              <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/005</td>
+              <td class="pending">Pending</td>
+              <td>Computer Science</td>
+              <td>25/06/2024, 10:00am</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+                <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/006</td>
+                <td class="pending">Pending</td>
+                <td>Cyber-Security</td>
+                <td>25/02/2024, 10:00am</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Picture"> ADUN/FS/20/007</td>
+                <td class="pending">Pending</td>
+                <td>Cyber-Security</td>
+                <td>25/02/2024, 10:00am</td>
+                <td>11/20</td>
+                <td class="completed">Pass</td>
+              </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+</body>
+</html>
