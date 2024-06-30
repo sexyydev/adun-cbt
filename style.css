@@ -322,7 +322,7 @@ ul {
   margin-left: 1.5em;
 }
 .alert2 {
-  background-image: url('../img/img1.jpeg');
+  background-image: url('img1.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -423,7 +423,7 @@ ul {
   margin-left: 1.5em;
 }
 .box {
-  background-image: url('../img/img1.jpeg');
+  background-image: url('img1.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -646,7 +646,7 @@ h1, h2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   background-color: #8ecae6;
-  background-image: url('../img/img1.jpeg');
+  background-image: url('img1.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
